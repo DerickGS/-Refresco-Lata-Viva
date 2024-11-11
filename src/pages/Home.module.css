@@ -1,0 +1,63 @@
+.bannerPrincipal{
+    background-image: url(../assets/elizeu-dias-xarhNpLSHTk-unsplash.jpg);
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.glassCard{
+    background-color: #a3630230;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0px 50px 60px 20px rgba(0,0,0,0.1);
+    
+    text-align: center;
+    
+    border-radius: 3rem;
+    padding: 5rem;
+}
+
+.bannerTitle{
+    font-size: 3rem;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+}
+
+
+.cardCans{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    .card{
+        padding: 3rem;
+        .imgCan{}
+        .desc{
+            width: 50%;
+            
+            h2{
+                font-size: 2rem;
+                font-family: monospace;
+            }
+            p{}
+            .buyButton{
+                border: unset;
+                border-radius: 2rem;
+                background: rgb(0, 0, 0);
+                color: rgb(255, 255, 255);
+                box-shadow: 0px 50px 60px 20px rgba(0,0,0,0.1);
+                
+                font-size: 1rem;
+                font-weight: 900;
+                font-style: monospace;
+                padding: 10px 100px;
+                
+            }
+        }
+    }
+}
